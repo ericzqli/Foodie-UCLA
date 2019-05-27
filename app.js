@@ -21,8 +21,12 @@ var indexRoutes = require("./routes/index");
 
 
 
+mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
+//mongoose.connect("mongodb://localhost/yelp_camp", {useNewUrlParser: true});
 
-mongoose.connect("mongodb+srv://liziqi1997:liziqi1997@cluster0-zr8zn.mongodb.net/test?retryWrites=true", {useNewUrlParser: true});
+
+
+
 
 app.use(bodyParser.urlencoded({extended: true})); // bodyParser usually has this line
 
