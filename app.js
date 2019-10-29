@@ -20,7 +20,7 @@ var indexRoutes = require("./routes/index");
 
 
 
-
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
 mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
 //mongoose.connect("mongodb://localhost/yelp_camp", {useNewUrlParser: true});
 
