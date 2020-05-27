@@ -1,6 +1,0 @@
-use this link to immigrate bootstrap3 to bootstrap4 
-https://www.youtube.com/watch?v=NHHh0sj1uKY
-
-You can leave the h3 element in there or remove it if you like.
-
-at around 3 minutes and 40 seconds into the video Colt uses the class name btn-large to style the bootstrap button. The class name should actually be: btn-lg
